@@ -1,0 +1,59 @@
+<html>
+<head>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <style>
+        
+        .headerFilter{
+            padding:5px;
+            font-size:20px;
+            background-color:  aliceblue;
+            text-align: center;
+        }
+        .titleFilter{
+            background-color:gainsboro;
+            padding:5px;
+            font-size:20px;
+            text-align: center
+            
+             
+        }
+        .contentFilter{
+            border-top: 0.5px solid black;
+            background-color:whitesmoke;
+            padding:5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-9" style="background-color:red;height:100px"></div>
+        
+        <div class="col-sm-3" >
+            <div class="containFilter">
+                <div class="headerFilter" ><b>Lọc sản phẩm</b></div>
+                <div class="titleFilter" data-toggle="collapse" data-target="#Gia">Giá</div>
+                <div id="Gia" class="collapse contentFilter">
+                    <div class="checkbox">
+                        <label><input type="checkbox" value=""> dưới 100.000đ</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value=""> 100.000 - 300.000đ</label>
+                    </div>
+                    <div class="checkbox disabled">
+                        <label><input type="checkbox" value=""> 300.000 - 500.000đ</label>
+                    </div>
+                     <div class="checkbox disabled">
+                        <label><input type="checkbox" value=""> Trên 500.000đ</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
