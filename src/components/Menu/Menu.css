@@ -1,0 +1,13 @@
+img.nav-link.img-menu {
+    width: 60px;
+    height: 60px;
+}
+#menu2 li.nav-item {
+    margin: 0px 10px;
+}
+.navbar-search {
+    margin-left: 800px;
+    margin-top: -70px;
+    z-index: 1;
+
+}
