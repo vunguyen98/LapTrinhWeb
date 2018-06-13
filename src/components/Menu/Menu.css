@@ -6,8 +6,12 @@ img.nav-link.img-menu {
     margin: 0px 10px;
 }
 .navbar-search {
-    margin-left: 800px;
-    margin-top: -70px;
+    margin-right: 0px;
+    margin-top: 0px;
     z-index: 1;
 
+}
+div#navbarSupportedContent {
+    margin-top: -60px;
+    margin-left: 200px;
 }

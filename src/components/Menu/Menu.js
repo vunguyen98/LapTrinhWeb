@@ -85,12 +85,7 @@ class Menu extends Component {
 
     <div id="menu2">
       {this.thanh()}
-      <div className="navbar-search">
-            <form className="form-inline search" action>
-              <input className="form-control mr-sm-2" placeholder="Bạn muốn tìm gì? " type="text" id="search" />
-              <a href="" className="navbar-brand" ><i className="fa fa-search" /></a>
-            </form>
-          </div>
+      
     </div>
 
   </div>
@@ -147,7 +142,12 @@ class Menu extends Component {
             </div>
             
           </div>
-          
+          <div className="navbar-search">
+            <form className="form-inline search" action>
+              <input className="form-control mr-sm-2" placeholder="Bạn muốn tìm gì? " type="text" id="search" />
+              <a href="" className="navbar-brand" ><i className="fa fa-search" /></a>
+            </form>
+          </div>
         </nav>
 
       );
